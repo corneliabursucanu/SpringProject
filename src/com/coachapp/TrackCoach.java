@@ -19,4 +19,14 @@ public class TrackCoach implements Coach {
 
     }
 
+    //add an init method for the bean
+    public void doStartupStuff(){
+        System.out.println("this is the init method");
+    }
+
+    //add a destroy method for the bean
+    public void destroyMethod(){
+        System.out.println("this is the destroy method");
+    }
+
 }
